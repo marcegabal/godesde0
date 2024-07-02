@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/marcegabal/godesde0/files"
+	"github.com/marcegabal/godesde0/funciones"
 )
 
 func main() {
@@ -43,6 +43,6 @@ func main() {
 	//files.GrabarTabla()
 	//files.SumarTabla()
 
-	files.LeoArchivo()
-
+	//files.LeoArchivo()
+	funciones.Calculos()
 }
