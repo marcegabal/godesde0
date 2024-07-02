@@ -1,17 +1,13 @@
 package main
 
 import (
-	"fmt"
-	"runtime"
-
-	"github.com/marcegabal/godesde0/ejercicios"
-	"github.com/marcegabal/godesde0/variables"
+	"github.com/marcegabal/godesde0/files"
 )
 
 func main() {
 	//variables.MuestroEnteros()
 	//variables.RestoVariables()
-	estado, texto := variables.ConviertoATexto(1558)
+	/*estado, texto := variables.ConviertoATexto(1558)
 	fmt.Println(estado)
 	fmt.Println(texto)
 
@@ -37,5 +33,16 @@ func main() {
 
 	fmt.Println(numej)
 	fmt.Println(textej)
+
+	fmt.Println("==========SCANNER======")
+	teclado.IngresoNumeros()
+
+	iteraciones.Iterar()
+
+	fmt.Println(ejercicios.IngresoMultiplicacion())*/
+	//files.GrabarTabla()
+	//files.SumarTabla()
+
+	files.LeoArchivo()
 
 }

@@ -7,7 +7,8 @@ func EjercicioReturn(valor string) (int, string) {
 	// string to int
 	num, err := strconv.Atoi(valor)
 	if err != nil {
-		panic(err)
+		//panic(err)
+		return 0, "Hubo un error " + err.Error()
 	}
 
 	if num > 100 {
