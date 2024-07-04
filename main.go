@@ -1,7 +1,9 @@
 package main
 
 import (
-	"github.com/marcegabal/godesde0/funciones"
+	//"github.com/marcegabal/godesde0/arreglos_slices"
+	//"github.com/marcegabal/godesde0/mapas"
+	defer_panic "github.com/marcegabal/godesde0/defer"
 )
 
 func main() {
@@ -44,5 +46,23 @@ func main() {
 	//files.SumarTabla()
 
 	//files.LeoArchivo()
-	funciones.Calculos()
+	//funciones.Calculos()
+	//funciones.LlamarClosure()
+	//funciones.Exponencia(2)
+
+	//arreglos_slices.MuestroArreglos()
+
+	//arreglos_slices.MuestroSlices()
+	//arreglos_slices.Capacidad()
+
+	//mapas.MostrarMapas()
+
+	//users.AltaUsuario()
+	/*Pedro := new(modelos.Hombre)
+	ejer_interfaces.HumanosRespirando(Pedro)
+
+	Maria := new(modelos.Mujer)
+	ejer_interfaces.HumanosRespirando(Maria)*/
+
+	defer_panic.EjemploPanic()
 }
